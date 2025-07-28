@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // DOM元素
+    const WORKER_URL = "https://workerjs.stanlyng0.workers.dev";
     const eventUrlInput = document.getElementById('event-url');
     const refreshIntervalSelect = document.getElementById('refresh-interval');
     const notificationEmailInput = document.getElementById('notification-email');
